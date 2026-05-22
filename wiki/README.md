@@ -251,7 +251,7 @@ Dependencies that need approval:
 @tsconfig/node12, 1.0.11, MIT
 @tsconfig/node14, 1.0.3, MIT
 @tsconfig/node16, 1.0.4, MIT
-@types/node, 25.7.0, MIT
+@types/node, 25.9.1, MIT
 acorn, 8.16.0, MIT
 acorn-walk, 8.3.5, MIT
 action_text-trix, 2.1.19, MIT
@@ -278,7 +278,7 @@ builder, 3.3.0, MIT
 bundler, 4.0.11, MIT
 capybara, 3.40.0, MIT
 carrierwave, 3.1.2, MIT
-chokidar, 4.0.3, MIT
+chokidar, 5.0.0, MIT
 coderay, 1.1.3, MIT
 concurrent-ruby, 1.3.6, MIT
 connection_pool, 3.0.2, MIT
@@ -315,8 +315,8 @@ io-console, 0.8.2, "Simplified BSD, ruby"
 irb, 1.18.0, "Simplified BSD, ruby"
 is-extglob, 2.1.1, MIT
 is-glob, 4.0.3, MIT
-jbuilder, 2.14.1, MIT
-jn-server, 1.0.8, MIT
+jbuilder, 2.15.0, MIT
+jn-server, 1.0.9, MIT
 jquery, 4.0.0, MIT
 jquery-ujs, 1.2.3, MIT
 jsbundling-rails, 1.3.1, MIT
@@ -326,7 +326,6 @@ kaminari-actionview, 1.2.2, MIT
 kaminari-activerecord, 1.2.2, MIT
 kaminari-core, 1.2.2, MIT
 kaminari-i18n, 0.5.0, MIT
-license_finder, 5.10.2, MIT
 listen, 3.10.0, MIT
 logger, 1.7.0, "Simplified BSD, ruby"
 loofah, 2.25.1, MIT
@@ -347,12 +346,11 @@ net-smtp, 0.5.1, "Simplified BSD, ruby"
 nio4r, 2.7.5, "MIT, Simplified BSD"
 node-addon-api, 7.1.1, MIT
 nokogiri, 1.19.3, MIT
-npm-check-updates, 19.6.6, "Apache 2.0"
+npm-check-updates, 22.2.0, "Apache 2.0"
 observer, 0.1.2, "Simplified BSD, ruby"
 orm_adapter, 0.5.0, MIT
 ostruct, 0.6.3, "Simplified BSD, ruby"
 paranoia, 3.1.0, MIT
-parslet, 1.8.2, MIT
 pg, 1.6.3, "Simplified BSD"
 picomatch, 4.0.4, MIT
 pkg-config, 1.6.5, LGPLv2+
@@ -380,12 +378,11 @@ rake, 13.4.2, MIT
 rb-fsevent, 0.11.2, MIT
 rb-inotify, 0.11.1, MIT
 rdoc, 7.2.0, ruby
-readdirp, 4.1.2, MIT
+readdirp, 5.0.0, MIT
 redcarpet, 3.6.1, MIT
 regexp_parser, 2.12.0, MIT
 reline, 0.6.3, ruby
 responders, 3.2.0, MIT
-rexml, 3.4.4, "Simplified BSD"
 rinku, 2.0.6, ISC
 rmagick, 7.0.0, MIT
 roo, 3.0.0, MIT
@@ -399,7 +396,7 @@ rspec-support, 3.9.4, MIT
 ruby-vips, 2.3.0, MIT
 rubyzip, 3.3.0, "Simplified BSD"
 sanitize, 7.0.0, MIT
-sass, 1.99.0, MIT
+sass, 1.100.0, MIT
 sassc, 2.4.0, MIT
 sax-machine, 1.3.2, MIT
 securerandom, 0.4.1, "Simplified BSD, ruby"
@@ -415,14 +412,13 @@ stimulus-rails, 1.3.4, MIT
 stringio, 3.2.0, "Simplified BSD, ruby"
 thor, 1.5.0, MIT
 timeout, 0.6.1, "Simplified BSD, ruby"
-toml, 0.2.0, MIT
 ts-node, 10.9.2, MIT
 tsort, 0.2.0, "Simplified BSD, ruby"
 turbo-rails, 2.0.23, MIT
-typescript, 5.9.3, "Apache 2.0"
+typescript, 6.0.3, "Apache 2.0"
 tzinfo, 2.0.6, MIT
 tzinfo-data, 1.2026.2, MIT
-undici-types, 7.21.0, MIT
+undici-types, 7.24.6, MIT
 uri, 1.1.1, "Simplified BSD, ruby"
 useragent, 0.16.11, MIT
 v8-compile-cache-lib, 3.0.1, MIT
@@ -431,11 +427,9 @@ wdm, 0.2.0, MIT
 web-console, 4.3.0, MIT
 websocket-driver, 0.8.0, "Apache 2.0"
 websocket-extensions, 0.1.5, "Apache 2.0"
-with_env, 1.1.0, MIT
-xml-simple, 1.1.9, MIT
 xpath, 3.2.0, MIT
 yn, 3.1.1, MIT
-zeitwerk, 2.7.5, MIT
+zeitwerk, 2.8.1, MIT
 ```
 
 #### yarn: 依存ライブラリのライセンス一覧
@@ -453,11 +447,11 @@ yarn licenses v1.22.22
 │  ├─ detect-libc@2.1.2
 │  │  ├─ URL: git://github.com/lovell/detect-libc.git
 │  │  └─ VendorName: Lovell Fuller
-│  ├─ npm-check-updates@19.6.6
+│  ├─ npm-check-updates@22.2.0
 │  │  ├─ URL: git+https://github.com/raineorshine/npm-check-updates.git
 │  │  ├─ VendorName: Tomas Junnonen
 │  │  └─ VendorUrl: https://github.com/raineorshine/npm-check-updates
-│  └─ typescript@5.9.3
+│  └─ typescript@6.0.3
 │     ├─ URL: https://github.com/microsoft/TypeScript.git
 │     ├─ VendorName: Microsoft Corp.
 │     └─ VendorUrl: https://www.typescriptlang.org/
@@ -503,7 +497,7 @@ yarn licenses v1.22.22
    │  └─ URL: https://github.com/tsconfig/bases.git
    ├─ @tsconfig/node16@1.0.4
    │  └─ URL: https://github.com/tsconfig/bases.git
-   ├─ @types/node@25.7.0
+   ├─ @types/node@25.9.1
    │  ├─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
    │  └─ VendorUrl: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
    ├─ acorn-walk@8.3.5
@@ -519,7 +513,7 @@ yarn licenses v1.22.22
    │  ├─ URL: git+https://github.com/thomaspark/bootswatch.git
    │  ├─ VendorName: Thomas Park
    │  └─ VendorUrl: https://bootswatch.com/
-   ├─ chokidar@4.0.3
+   ├─ chokidar@5.0.0
    │  ├─ URL: git+https://github.com/paulmillr/chokidar.git
    │  ├─ VendorName: Paul Miller
    │  └─ VendorUrl: https://github.com/paulmillr/chokidar
@@ -539,7 +533,7 @@ yarn licenses v1.22.22
    │  ├─ URL: https://github.com/micromatch/is-glob.git
    │  ├─ VendorName: Jon Schlinkert
    │  └─ VendorUrl: https://github.com/micromatch/is-glob
-   ├─ jn-server@1.0.8
+   ├─ jn-server@1.0.9
    │  ├─ URL: https://github.com/takkii/json-server.git
    │  ├─ VendorName: Takayuki Kamiyama
    │  └─ VendorUrl: http://pieceof.shop/
@@ -561,11 +555,11 @@ yarn licenses v1.22.22
    │  ├─ URL: git+https://github.com/zslucky/pygments-css.git
    │  ├─ VendorName: lucky zhou
    │  └─ VendorUrl: https://github.com/richleland/pygments-css#readme
-   ├─ readdirp@4.1.2
-   │  ├─ URL: git://github.com/paulmillr/readdirp.git
+   ├─ readdirp@5.0.0
+   │  ├─ URL: https://github.com/paulmillr/readdirp.git
    │  ├─ VendorName: Thorsten Lorenz
    │  └─ VendorUrl: https://github.com/paulmillr/readdirp
-   ├─ sass@1.99.0
+   ├─ sass@1.100.0
    │  ├─ URL: https://github.com/sass/dart-sass
    │  ├─ VendorName: Natalie Weizenbaum
    │  └─ VendorUrl: https://github.com/sass/dart-sass
@@ -573,7 +567,7 @@ yarn licenses v1.22.22
    │  ├─ URL: git://github.com/TypeStrong/ts-node.git
    │  ├─ VendorName: Blake Embrey
    │  └─ VendorUrl: https://typestrong.org/ts-node
-   ├─ undici-types@7.21.0
+   ├─ undici-types@7.24.6
    │  ├─ URL: git+https://github.com/nodejs/undici.git
    │  └─ VendorUrl: https://undici.nodejs.org/
    ├─ v8-compile-cache-lib@3.0.1
@@ -583,7 +577,7 @@ yarn licenses v1.22.22
       ├─ URL: https://github.com/sindresorhus/yn.git
       ├─ VendorName: Sindre Sorhus
       └─ VendorUrl: sindresorhus.com
-Done in 0.29s.
+Done in 0.27s.
 ```
 
 #### パープルヘイズのルーティング
@@ -659,4 +653,4 @@ rails_conductor_inbound_email_incinerate POST   /rails/conductor/action_mailbox/
                     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                                    active_storage/direct_uploads#create
 ```
 
-_※ 更新履歴: 2026/05/14🔄_
+_※ 更新履歴: 2026/05/22🔄_
