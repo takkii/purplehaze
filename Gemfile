@@ -92,7 +92,7 @@ group :development do
 
   # Don't delete My Gemfile in Library.
   gem 'listen'
-  gem 'license_finder'
+  # gem 'license_finder'
 end
 
 group :test do
