@@ -1,5 +1,7 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release](https://img.shields.io/github/release/takkii/purplehaze.svg?style=flat) [![GitHub Status](https://img.shields.io/github/last-commit/takkii/purplehaze.svg?style=flat)](GitHub)
 
+[![NPM](https://nodei.co/npm/jn-server.png?compact=true)](https://nodei.co/npm/jn-server/)
+
 <hr />
 <div align="center">
   <p><h1> パープルヘイズの<a href="https://youtu.be/6Rq5Jdilko0">DTCL動画</a>です。</h1></p>
