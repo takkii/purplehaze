@@ -6,7 +6,7 @@
     "@rails/ujs": "^7.1.600",
     "bootswatch": "^5.3.8",
     "esbuild": "^0.28.0",
-    "jn-server": "^1.0.9",
+    "jn-server": "^1.1.0",
     "jquery": "^4.0.0",
     "jquery-ujs": "^1.2.3",
     "pygments-rouge-css": "^0.1.0",
