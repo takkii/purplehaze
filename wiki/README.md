@@ -272,7 +272,7 @@ base64, 0.3.0, "Simplified BSD, ruby"
 bcrypt, 3.1.22, MIT
 bigdecimal, 4.1.2, "Simplified BSD, ruby"
 bindex, 0.8.1, MIT
-bootsnap, 1.24.4, MIT
+bootsnap, 1.24.5, MIT
 bootswatch, 5.3.8, MIT
 builder, 3.3.0, MIT
 bundler, 4.0.11, MIT
@@ -316,7 +316,7 @@ irb, 1.18.0, "Simplified BSD, ruby"
 is-extglob, 2.1.1, MIT
 is-glob, 4.0.3, MIT
 jbuilder, 2.15.0, MIT
-jn-server, 1.0.9, MIT
+jn-server, 1.1.0, MIT
 jquery, 4.0.0, MIT
 jquery-ujs, 1.2.3, MIT
 jsbundling-rails, 1.3.1, MIT
@@ -533,7 +533,7 @@ yarn licenses v1.22.22
    │  ├─ URL: https://github.com/micromatch/is-glob.git
    │  ├─ VendorName: Jon Schlinkert
    │  └─ VendorUrl: https://github.com/micromatch/is-glob
-   ├─ jn-server@1.0.9
+   ├─ jn-server@1.1.0
    │  ├─ URL: https://github.com/takkii/json-server.git
    │  ├─ VendorName: Takayuki Kamiyama
    │  └─ VendorUrl: http://pieceof.shop/
@@ -577,7 +577,7 @@ yarn licenses v1.22.22
       ├─ URL: https://github.com/sindresorhus/yn.git
       ├─ VendorName: Sindre Sorhus
       └─ VendorUrl: sindresorhus.com
-Done in 0.27s.
+Done in 0.29s.
 ```
 
 #### パープルヘイズのルーティング
@@ -653,4 +653,4 @@ rails_conductor_inbound_email_incinerate POST   /rails/conductor/action_mailbox/
                     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                                    active_storage/direct_uploads#create
 ```
 
-_※ 更新履歴: 2026/05/22🔄_
+_※ 更新履歴: 2026/05/23🔄_
