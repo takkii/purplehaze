@@ -400,7 +400,7 @@ sass, 1.100.0, MIT
 sassc, 2.4.0, MIT
 sax-machine, 1.3.2, MIT
 securerandom, 0.4.1, "Simplified BSD, ruby"
-sheltered-girl, 4.0.8, MIT
+sheltered-girl, 4.0.8.1, MIT
 simplecov, 0.22.0, MIT
 simplecov-html, 0.13.2, MIT
 simplecov_json_formatter, 0.1.4, MIT
@@ -653,4 +653,4 @@ rails_conductor_inbound_email_incinerate POST   /rails/conductor/action_mailbox/
                     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                                    active_storage/direct_uploads#create
 ```
 
-_※ 更新履歴: 2026/05/25🔄_
+_※ 更新履歴: 2026/05/26🔄_
