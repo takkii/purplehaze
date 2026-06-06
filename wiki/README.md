@@ -251,7 +251,7 @@ Dependencies that need approval:
 @tsconfig/node12, 1.0.11, MIT
 @tsconfig/node14, 1.0.3, MIT
 @tsconfig/node16, 1.0.4, MIT
-@types/node, 25.9.1, MIT
+@types/node, 25.9.2, MIT
 acorn, 8.16.0, MIT
 acorn-walk, 8.3.5, MIT
 action_text-trix, 2.1.19, MIT
@@ -272,7 +272,7 @@ base64, 0.3.0, "Simplified BSD, ruby"
 bcrypt, 3.1.22, MIT
 bigdecimal, 4.1.2, "Simplified BSD, ruby"
 bindex, 0.8.1, MIT
-bootsnap, 1.24.5, MIT
+bootsnap, 1.24.6, MIT
 bootswatch, 5.3.8, MIT
 builder, 3.3.0, MIT
 bundler, 4.0.12, MIT
@@ -310,17 +310,17 @@ grouse, 1.1.7.1, MIT
 httparty, 0.24.2, MIT
 i18n, 1.14.8, MIT
 image_processing, 1.14.0, MIT
-immutable, 5.1.5, MIT
+immutable, 5.1.6, MIT
 io-console, 0.8.2, "Simplified BSD, ruby"
 irb, 1.18.0, "Simplified BSD, ruby"
 is-extglob, 2.1.1, MIT
 is-glob, 4.0.3, MIT
-jbuilder, 2.15.0, MIT
+jbuilder, 2.15.1, MIT
 jn-server, 1.1.0, MIT
 jquery, 4.0.0, MIT
 jquery-ujs, 1.2.3, MIT
 jsbundling-rails, 1.3.1, MIT
-json, 2.19.5, ruby
+json, 2.19.8, ruby
 kaminari, 1.2.2, MIT
 kaminari-actionview, 1.2.2, MIT
 kaminari-activerecord, 1.2.2, MIT
@@ -337,7 +337,7 @@ method_source, 1.1.0, MIT
 mini_magick, 5.3.1, MIT
 mini_mime, 1.1.5, MIT
 minitest, 5.27.0, MIT
-msgpack, 1.8.0, "Apache 2.0"
+msgpack, 1.8.1, "Apache 2.0"
 multi_xml, 0.9.1, MIT
 net-imap, 0.6.4, "Simplified BSD, ruby"
 net-pop, 0.1.2, "Simplified BSD, ruby"
@@ -346,7 +346,7 @@ net-smtp, 0.5.1, "Simplified BSD, ruby"
 nio4r, 2.7.5, "MIT, Simplified BSD"
 node-addon-api, 7.1.1, MIT
 nokogiri, 1.19.3, MIT
-npm-check-updates, 22.2.0, "Apache 2.0"
+npm-check-updates, 22.2.3, "Apache 2.0"
 observer, 0.1.2, "Simplified BSD, ruby"
 orm_adapter, 0.5.0, MIT
 ostruct, 0.6.3, "Simplified BSD, ruby"
@@ -359,9 +359,9 @@ prettyprint, 0.2.0, "Simplified BSD, ruby"
 prism, 1.9.0, MIT
 propshaft, 1.3.2, MIT
 pry, 0.16.0, MIT
-psych, 5.3.1, MIT
+psych, 5.4.0, MIT
 public_suffix, 7.0.5, MIT
-puma, 8.0.1, "New BSD"
+puma, 8.0.2, "New BSD"
 pycall, 1.5.2, MIT
 pygments-rouge-css, 0.1.0, MIT
 racc, 1.8.1, "Simplified BSD, ruby"
@@ -384,9 +384,9 @@ regexp_parser, 2.12.0, MIT
 reline, 0.6.3, ruby
 responders, 3.2.0, MIT
 rinku, 2.0.6, ISC
-rmagick, 7.0.0, MIT
+rmagick, 7.0.3, MIT
 roo, 3.0.0, MIT
-rouge, 4.7.0, "MIT, Simplified BSD"
+rouge, 5.0.0, "MIT, Simplified BSD"
 rspec, 3.9.0, MIT
 rspec-core, 3.9.3, MIT
 rspec-expectations, 3.9.4, MIT
@@ -394,7 +394,7 @@ rspec-mocks, 3.9.1, MIT
 rspec-rails, 3.9.1, MIT
 rspec-support, 3.9.4, MIT
 ruby-vips, 2.3.0, MIT
-rubyzip, 3.3.0, "Simplified BSD"
+rubyzip, 3.3.1, "Simplified BSD"
 sanitize, 7.0.0, MIT
 sass, 1.100.0, MIT
 sassc, 2.4.0, MIT
@@ -405,11 +405,12 @@ simplecov, 0.22.0, MIT
 simplecov-html, 0.13.2, MIT
 simplecov_json_formatter, 0.1.4, MIT
 source-map-js, 1.2.1, "New BSD"
-spring, 4.5.0, MIT
+spring, 4.6.0, MIT
 spring-commands-rspec, 1.0.4, MIT
 ssrf_filter, 1.5.0, MIT
 stimulus-rails, 1.3.4, MIT
 stringio, 3.2.0, "Simplified BSD, ruby"
+strscan, 3.1.8, "Simplified BSD, ruby"
 thor, 1.5.0, MIT
 timeout, 0.6.1, "Simplified BSD, ruby"
 ts-node, 10.9.2, MIT
@@ -425,7 +426,7 @@ v8-compile-cache-lib, 3.0.1, MIT
 warden, 1.2.9, MIT
 wdm, 0.2.0, MIT
 web-console, 4.3.0, MIT
-websocket-driver, 0.8.0, "Apache 2.0"
+websocket-driver, 0.8.1, "Apache 2.0"
 websocket-extensions, 0.1.5, "Apache 2.0"
 xpath, 3.2.0, MIT
 yn, 3.1.1, MIT
@@ -447,7 +448,7 @@ yarn licenses v1.22.22
 │  ├─ detect-libc@2.1.2
 │  │  ├─ URL: git://github.com/lovell/detect-libc.git
 │  │  └─ VendorName: Lovell Fuller
-│  ├─ npm-check-updates@22.2.0
+│  ├─ npm-check-updates@22.2.3
 │  │  ├─ URL: git+https://github.com/raineorshine/npm-check-updates.git
 │  │  ├─ VendorName: Tomas Junnonen
 │  │  └─ VendorUrl: https://github.com/raineorshine/npm-check-updates
@@ -497,7 +498,7 @@ yarn licenses v1.22.22
    │  └─ URL: https://github.com/tsconfig/bases.git
    ├─ @tsconfig/node16@1.0.4
    │  └─ URL: https://github.com/tsconfig/bases.git
-   ├─ @types/node@25.9.1
+   ├─ @types/node@25.9.2
    │  ├─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
    │  └─ VendorUrl: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
    ├─ acorn-walk@8.3.5
@@ -521,7 +522,7 @@ yarn licenses v1.22.22
    │  └─ URL: https://github.com/nuxt-contrib/create-require.git
    ├─ esbuild@0.28.0
    │  └─ URL: git+https://github.com/evanw/esbuild.git
-   ├─ immutable@5.1.5
+   ├─ immutable@5.1.6
    │  ├─ URL: git://github.com/immutable-js/immutable-js.git
    │  ├─ VendorName: Lee Byron
    │  └─ VendorUrl: https://immutable-js.com/
@@ -577,7 +578,7 @@ yarn licenses v1.22.22
       ├─ URL: https://github.com/sindresorhus/yn.git
       ├─ VendorName: Sindre Sorhus
       └─ VendorUrl: sindresorhus.com
-Done in 0.29s.
+Done in 0.27s.
 ```
 
 #### パープルヘイズのルーティング
@@ -653,4 +654,4 @@ rails_conductor_inbound_email_incinerate POST   /rails/conductor/action_mailbox/
                     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                                    active_storage/direct_uploads#create
 ```
 
-_※ 更新履歴: 2026/05/26🔄_
+_※ 更新履歴: 2026/06/06🔄_
