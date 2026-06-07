@@ -275,7 +275,7 @@ bindex, 0.8.1, MIT
 bootsnap, 1.24.6, MIT
 bootswatch, 5.3.8, MIT
 builder, 3.3.0, MIT
-bundler, 4.0.12, MIT
+bundler, 4.0.13, MIT
 capybara, 3.40.0, MIT
 carrierwave, 3.1.3, MIT
 chokidar, 5.0.0, MIT
@@ -400,7 +400,7 @@ sass, 1.100.0, MIT
 sassc, 2.4.0, MIT
 sax-machine, 1.3.2, MIT
 securerandom, 0.4.1, "Simplified BSD, ruby"
-sheltered-girl, 4.0.8.1, MIT
+sheltered-girl, 4.0.8.2, MIT
 simplecov, 0.22.0, MIT
 simplecov-html, 0.13.2, MIT
 simplecov_json_formatter, 0.1.4, MIT
