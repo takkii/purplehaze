@@ -239,7 +239,7 @@ _※ パープルヘイズを起動する前に、上記手順を行って下さ
 ```ruby
 Dependencies that need approval:
 @cspotcode/source-map-support, 0.8.1, MIT
-@esbuild/win32-x64, 0.28.0, MIT
+@esbuild/win32-x64, 0.28.1, MIT
 @fortawesome/fontawesome-free, 7.2.0, "(CC-BY-4.0 AND OFL-1.1 AND MIT)"
 @jridgewell/resolve-uri, 3.1.2, MIT
 @jridgewell/sourcemap-codec, 1.5.5, MIT
@@ -251,8 +251,8 @@ Dependencies that need approval:
 @tsconfig/node12, 1.0.11, MIT
 @tsconfig/node14, 1.0.3, MIT
 @tsconfig/node16, 1.0.4, MIT
-@types/node, 25.9.2, MIT
-acorn, 8.16.0, MIT
+@types/node, 26.0.0, MIT
+acorn, 8.17.0, MIT
 acorn-walk, 8.3.5, MIT
 action_text-trix, 2.1.19, MIT
 actioncable, 8.1.3, MIT
@@ -280,7 +280,7 @@ capybara, 3.40.0, MIT
 carrierwave, 3.1.3, MIT
 chokidar, 5.0.0, MIT
 coderay, 1.1.3, MIT
-concurrent-ruby, 1.3.6, MIT
+concurrent-ruby, 1.3.7, MIT
 connection_pool, 3.0.2, MIT
 crass, 1.0.6, MIT
 create-require, 1.1.1, MIT
@@ -299,7 +299,7 @@ dotenv-rails, 3.2.0, MIT
 drb, 2.2.3, "Simplified BSD, ruby"
 erb, 6.0.4, "Simplified BSD, ruby"
 erubi, 1.13.1, MIT
-esbuild, 0.28.0, MIT
+esbuild, 0.28.1, MIT
 factory_bot, 6.6.0, MIT
 factory_bot_rails, 6.5.1, MIT
 feedjira, 3.2.6, MIT
@@ -308,7 +308,7 @@ font-awesome-sass, 6.7.2, MIT
 globalid, 1.3.0, MIT
 grouse, 1.1.7.1, MIT
 httparty, 0.24.2, MIT
-i18n, 1.14.8, MIT
+i18n, 1.15.2, MIT
 image_processing, 1.14.0, MIT
 immutable, 5.1.6, MIT
 io-console, 0.8.2, "Simplified BSD, ruby"
@@ -320,7 +320,7 @@ jn-server, 1.1.0, MIT
 jquery, 4.0.0, MIT
 jquery-ujs, 1.2.3, MIT
 jsbundling-rails, 1.3.1, MIT
-json, 2.19.8, ruby
+json, 2.19.9, ruby
 kaminari, 1.2.2, MIT
 kaminari-actionview, 1.2.2, MIT
 kaminari-activerecord, 1.2.2, MIT
@@ -337,15 +337,15 @@ method_source, 1.1.0, MIT
 mini_magick, 5.3.1, MIT
 mini_mime, 1.1.5, MIT
 minitest, 5.27.0, MIT
-msgpack, 1.8.1, "Apache 2.0"
+msgpack, 1.8.3, "Apache 2.0"
 multi_xml, 0.9.1, MIT
-net-imap, 0.6.4, "Simplified BSD, ruby"
+net-imap, 0.6.4.1, "Simplified BSD, ruby"
 net-pop, 0.1.2, "Simplified BSD, ruby"
 net-protocol, 0.2.2, "Simplified BSD, ruby"
 net-smtp, 0.5.1, "Simplified BSD, ruby"
 nio4r, 2.7.5, "MIT, Simplified BSD"
 node-addon-api, 7.1.1, MIT
-nokogiri, 1.19.3, MIT
+nokogiri, 1.19.4, MIT
 npm-check-updates, 22.2.3, "Apache 2.0"
 observer, 0.1.2, "Simplified BSD, ruby"
 orm_adapter, 0.5.0, MIT
@@ -384,7 +384,7 @@ regexp_parser, 2.12.0, MIT
 reline, 0.6.3, ruby
 responders, 3.2.0, MIT
 rinku, 2.0.6, ISC
-rmagick, 7.0.3, MIT
+rmagick, 7.0.4, MIT
 roo, 3.0.0, MIT
 rouge, 5.0.0, "MIT, Simplified BSD"
 rspec, 3.9.0, MIT
@@ -394,9 +394,9 @@ rspec-mocks, 3.9.1, MIT
 rspec-rails, 3.9.1, MIT
 rspec-support, 3.9.4, MIT
 ruby-vips, 2.3.0, MIT
-rubyzip, 3.3.1, "Simplified BSD"
+rubyzip, 3.4.0, "Simplified BSD"
 sanitize, 7.0.0, MIT
-sass, 1.100.0, MIT
+sass, 1.101.0, MIT
 sassc, 2.4.0, MIT
 sax-machine, 1.3.2, MIT
 securerandom, 0.4.1, "Simplified BSD, ruby"
@@ -419,7 +419,7 @@ turbo-rails, 2.0.23, MIT
 typescript, 6.0.3, "Apache 2.0"
 tzinfo, 2.0.6, MIT
 tzinfo-data, 1.2026.2, MIT
-undici-types, 7.24.6, MIT
+undici-types, 8.3.0, MIT
 uri, 1.1.1, "Simplified BSD, ruby"
 useragent, 0.16.11, MIT
 v8-compile-cache-lib, 3.0.1, MIT
@@ -471,7 +471,7 @@ yarn licenses v1.22.22
 └─ MIT
    ├─ @cspotcode/source-map-support@0.8.1
    │  └─ URL: https://github.com/cspotcode/node-source-map-support
-   ├─ @esbuild/win32-x64@0.28.0
+   ├─ @esbuild/win32-x64@0.28.1
    │  └─ URL: git+https://github.com/evanw/esbuild.git
    ├─ @jridgewell/resolve-uri@3.1.2
    │  ├─ URL: https://github.com/jridgewell/resolve-uri
@@ -498,13 +498,13 @@ yarn licenses v1.22.22
    │  └─ URL: https://github.com/tsconfig/bases.git
    ├─ @tsconfig/node16@1.0.4
    │  └─ URL: https://github.com/tsconfig/bases.git
-   ├─ @types/node@25.9.2
+   ├─ @types/node@26.0.0
    │  ├─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
    │  └─ VendorUrl: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
    ├─ acorn-walk@8.3.5
    │  ├─ URL: https://github.com/acornjs/acorn.git
    │  └─ VendorUrl: https://github.com/acornjs/acorn
-   ├─ acorn@8.16.0
+   ├─ acorn@8.17.0
    │  ├─ URL: git+https://github.com/acornjs/acorn.git
    │  └─ VendorUrl: https://github.com/acornjs/acorn
    ├─ arg@4.1.3
@@ -520,7 +520,7 @@ yarn licenses v1.22.22
    │  └─ VendorUrl: https://github.com/paulmillr/chokidar
    ├─ create-require@1.1.1
    │  └─ URL: https://github.com/nuxt-contrib/create-require.git
-   ├─ esbuild@0.28.0
+   ├─ esbuild@0.28.1
    │  └─ URL: git+https://github.com/evanw/esbuild.git
    ├─ immutable@5.1.6
    │  ├─ URL: git://github.com/immutable-js/immutable-js.git
@@ -560,7 +560,7 @@ yarn licenses v1.22.22
    │  ├─ URL: https://github.com/paulmillr/readdirp.git
    │  ├─ VendorName: Thorsten Lorenz
    │  └─ VendorUrl: https://github.com/paulmillr/readdirp
-   ├─ sass@1.100.0
+   ├─ sass@1.101.0
    │  ├─ URL: https://github.com/sass/dart-sass
    │  ├─ VendorName: Natalie Weizenbaum
    │  └─ VendorUrl: https://github.com/sass/dart-sass
@@ -568,7 +568,7 @@ yarn licenses v1.22.22
    │  ├─ URL: git://github.com/TypeStrong/ts-node.git
    │  ├─ VendorName: Blake Embrey
    │  └─ VendorUrl: https://typestrong.org/ts-node
-   ├─ undici-types@7.24.6
+   ├─ undici-types@8.3.0
    │  ├─ URL: git+https://github.com/nodejs/undici.git
    │  └─ VendorUrl: https://undici.nodejs.org/
    ├─ v8-compile-cache-lib@3.0.1
@@ -578,7 +578,7 @@ yarn licenses v1.22.22
       ├─ URL: https://github.com/sindresorhus/yn.git
       ├─ VendorName: Sindre Sorhus
       └─ VendorUrl: sindresorhus.com
-Done in 0.27s.
+Done in 0.93s.
 ```
 
 #### パープルヘイズのルーティング
@@ -654,4 +654,4 @@ rails_conductor_inbound_email_incinerate POST   /rails/conductor/action_mailbox/
                     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                                    active_storage/direct_uploads#create
 ```
 
-_※ 更新履歴: 2026/06/08🔄_
+_※ 更新履歴: 2026/06/20🔄_
