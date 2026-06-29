@@ -8,4 +8,3 @@ describe Time do
     expect(t).to be_within(1).of(Time.now)
   end
 end
-

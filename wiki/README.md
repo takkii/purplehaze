@@ -224,7 +224,7 @@ grouse, 1.1.7.1, MIT
 httparty, 0.24.2, MIT
 i18n, 1.15.2, MIT
 image_processing, 1.14.0, MIT
-immutable, 5.1.6, MIT
+immutable, 5.1.9, MIT
 io-console, 0.8.2, "Simplified BSD, ruby"
 irb, 1.18.0, "Simplified BSD, ruby"
 is-extglob, 2.1.1, MIT
@@ -260,7 +260,7 @@ net-smtp, 0.5.1, "Simplified BSD, ruby"
 nio4r, 2.7.5, "MIT, Simplified BSD"
 node-addon-api, 7.1.1, MIT
 nokogiri, 1.19.4, MIT
-npm-check-updates, 22.2.3, "Apache 2.0"
+npm-check-updates, 22.2.9, "Apache 2.0"
 observer, 0.1.2, "Simplified BSD, ruby"
 orm_adapter, 0.5.0, MIT
 ostruct, 0.6.3, "Simplified BSD, ruby"
@@ -301,12 +301,12 @@ rinku, 2.0.6, ISC
 rmagick, 7.0.4, MIT
 roo, 3.0.0, MIT
 rouge, 5.0.0, "MIT, Simplified BSD"
-rspec, 3.9.0, MIT
-rspec-core, 3.9.3, MIT
-rspec-expectations, 3.9.4, MIT
-rspec-mocks, 3.9.1, MIT
-rspec-rails, 3.9.1, MIT
-rspec-support, 3.9.4, MIT
+rspec, 3.13.2, MIT
+rspec-core, 3.13.6, MIT
+rspec-expectations, 3.13.5, MIT
+rspec-mocks, 3.13.8, MIT
+rspec-rails, 8.0.4, MIT
+rspec-support, 3.13.7, MIT
 ruby-vips, 2.3.0, MIT
 rubyzip, 3.4.1, "Simplified BSD"
 sanitize, 7.0.0, MIT
