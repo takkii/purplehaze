@@ -3,64 +3,41 @@
 ```markdown
 # 検証済: 開発環境
 ・ Windows11 pro
-・ Docker
-・ Nginx
 ```
 
 ```markdown
-# 環境構築: 前提条件
+# GitHubから複製 ①
 git clone git@github.com:takkii/purplehaze.git
+
+# sheltered-girlでテンプレート生成 ②
+heats purple
+
+> ①と②は、どちらかを満たせばよい。
+
+# プロジェクトに移動
 cd purplehaze
+
+# Rubygems依存ライブラリ解消
 bundle update
+
+# npmパッケージ更新
+ncu -u
+
+# yarnインストール
 yarn install
+yarn upgrade
+
+# js/css、コンパイル
 yarn build
 yarn build:css
 ```
 
-
-
-※ 環境構築前提条件を満たすこと、リアルタイム顔認識システムでログを書き出すこと。
+_※ 環境構築前提条件を満たすこと、リアルタイム顔認識システムでログを書き出すこと。_
 
 #### ログイン
 
 | [ユーザ側](http://localhost/users/sign_in) | [管理者側](http://localhost/admins/sign_in) |
 | :----------------------------------------: | :-----------------------------------------: |
-
-#### Docker側
-
-```sql
-# bashでコンテナ内に入る
-
-docker-compose exec db bash
-
-# postgresパスワード設定
-
-passwd postgres
-
-# postgresユーザ切り替え
-
-su - postgres
-
-# スーパーユーザでログイン
-
-psql
-
-# role 新規ユーザのようなもの
-
-create role takkii WITH CREATEDB login password '20070920';
-
-# HINT: Must be superuser to create this extension.
-
-ALTER ROLE takkii SUPERUSER;
-
-# pgroonga有効化
-
-CREATE EXTENSION pgroonga;
-
-# takkiiがSUPERUSERかどうか
-
-\du
-```
 
 #### 新規機能追加
 
@@ -86,16 +63,14 @@ rails db:migrate:reset
 
 ```ruby
 # データセット
-
-docker-compose exec web rails db:default_db
+rails db:default_db
 
 # データ入れ直し
-
-docker-compose exec web rails db:environment:set RAILS_ENV=development
-docker-compose exec web rails db:pg_default_db
+rails db:environment:set RAILS_ENV=development
+rails db:pg_default_db
 
 # adminとuserのメールアドレスとパスワードを入れる。
-rails c / docker-compose exec web rails c
+rails c
 ```
 
 #### 管理者側
@@ -118,66 +93,13 @@ u.password_confirmation = 'jbUuwYC-4lWO8JMFruPvePQGA'
 end
 ```
 
-※ seedデータ内、整理。
-
-#### ローカル環境構築
-
-```ruby
-# Nginx
-
-cd C:\nginx-1.22.0
-
-# テスト
-
-nginx -t
-
-# 起動
-
-start nginx
-
-# 再読み込み
-
-nginx -s reload
-
-# 停止
-nginx -s stop
-
-# 起動
-
-rails s
-
-# データセット
-
-rails db:defualt_db
-
-# 入れ直し
-
-rails db:pg_default_db
-
-記事→CSVインポート、文章データ復元。
-
-# デーモン化起動
-docker compose up -d
-
-# config/puma.rb
-
-修正、コメント内容確認。
-```
-#### 証明書
-
-```shell
-# use scoop
-scoop install mkcert
-
-# 管理者権限で実行
-mkcert --install
-mkcert --uninstall
-
-# localhost
-mkcert localhost
-```
+_※ seedデータ内、整理。_
 
 > git clone git@github.com:takkii/hyokaproject.git
+>
+> heats hyoka
+
+_※ GitHubから複製、heatsコマンドでテンプレートのどちらでもよい。_
 
 ```python
 cd hyokaproject
@@ -240,7 +162,7 @@ _※ パープルヘイズを起動する前に、上記手順を行って下さ
 Dependencies that need approval:
 @cspotcode/source-map-support, 0.8.1, MIT
 @esbuild/win32-x64, 0.28.1, MIT
-@fortawesome/fontawesome-free, 7.2.0, "(CC-BY-4.0 AND OFL-1.1 AND MIT)"
+@fortawesome/fontawesome-free, 7.3.0, "(CC-BY-4.0 AND OFL-1.1 AND MIT)"
 @jridgewell/resolve-uri, 3.1.2, MIT
 @jridgewell/sourcemap-codec, 1.5.5, MIT
 @jridgewell/trace-mapping, 0.3.9, MIT
@@ -251,7 +173,7 @@ Dependencies that need approval:
 @tsconfig/node12, 1.0.11, MIT
 @tsconfig/node14, 1.0.3, MIT
 @tsconfig/node16, 1.0.4, MIT
-@types/node, 26.0.0, MIT
+@types/node, 26.0.1, MIT
 acorn, 8.17.0, MIT
 acorn-walk, 8.3.5, MIT
 action_text-trix, 2.1.19, MIT
@@ -282,7 +204,7 @@ chokidar, 5.0.0, MIT
 coderay, 1.1.3, MIT
 concurrent-ruby, 1.3.7, MIT
 connection_pool, 3.0.2, MIT
-crass, 1.0.6, MIT
+crass, 1.0.7, MIT
 create-require, 1.1.1, MIT
 cssbundling-rails, 1.4.3, MIT
 csv, 3.3.5, "Simplified BSD, ruby"
@@ -305,7 +227,7 @@ factory_bot_rails, 6.5.1, MIT
 feedjira, 3.2.6, MIT
 ffi, 1.17.4, "New BSD"
 font-awesome-sass, 6.7.2, MIT
-globalid, 1.3.0, MIT
+globalid, 1.4.0, MIT
 grouse, 1.1.7.1, MIT
 httparty, 0.24.2, MIT
 i18n, 1.15.2, MIT
@@ -320,7 +242,7 @@ jn-server, 1.1.0, MIT
 jquery, 4.0.0, MIT
 jquery-ujs, 1.2.3, MIT
 jsbundling-rails, 1.3.1, MIT
-json, 2.19.9, ruby
+json, 2.20.0, ruby
 kaminari, 1.2.2, MIT
 kaminari-actionview, 1.2.2, MIT
 kaminari-activerecord, 1.2.2, MIT
@@ -354,12 +276,11 @@ paranoia, 3.1.0, MIT
 pg, 1.6.3, "Simplified BSD"
 picomatch, 4.0.4, MIT
 pkg-config, 1.6.5, LGPLv2+
-pp, 0.6.3, "Simplified BSD, ruby"
+pp, 0.6.4, "Simplified BSD, ruby"
 prettyprint, 0.2.0, "Simplified BSD, ruby"
 prism, 1.9.0, MIT
 propshaft, 1.3.2, MIT
 pry, 0.16.0, MIT
-psych, 5.4.0, MIT
 public_suffix, 7.0.5, MIT
 puma, 8.0.2, "New BSD"
 pycall, 1.5.2, MIT
@@ -377,7 +298,8 @@ railties, 8.1.3, MIT
 rake, 13.4.2, MIT
 rb-fsevent, 0.11.2, MIT
 rb-inotify, 0.11.1, MIT
-rdoc, 7.2.0, ruby
+rbs, 4.0.3, "Simplified BSD, ruby"
+rdoc, 8.0.0, "GPLv2, ruby"
 readdirp, 5.0.0, MIT
 redcarpet, 3.6.1, MIT
 regexp_parser, 2.12.0, MIT
@@ -394,7 +316,7 @@ rspec-mocks, 3.9.1, MIT
 rspec-rails, 3.9.1, MIT
 rspec-support, 3.9.4, MIT
 ruby-vips, 2.3.0, MIT
-rubyzip, 3.4.0, "Simplified BSD"
+rubyzip, 3.4.1, "Simplified BSD"
 sanitize, 7.0.0, MIT
 sass, 1.101.0, MIT
 sassc, 2.4.0, MIT
@@ -405,11 +327,10 @@ simplecov, 0.22.0, MIT
 simplecov-html, 0.13.2, MIT
 simplecov_json_formatter, 0.1.4, MIT
 source-map-js, 1.2.1, "New BSD"
-spring, 4.6.0, MIT
+spring, 4.7.0, MIT
 spring-commands-rspec, 1.0.4, MIT
 ssrf_filter, 1.5.0, MIT
 stimulus-rails, 1.3.4, MIT
-stringio, 3.2.0, "Simplified BSD, ruby"
 strscan, 3.1.8, "Simplified BSD, ruby"
 thor, 1.5.0, MIT
 timeout, 0.6.1, "Simplified BSD, ruby"
@@ -426,7 +347,7 @@ v8-compile-cache-lib, 3.0.1, MIT
 warden, 1.2.9, MIT
 wdm, 0.2.0, MIT
 web-console, 4.3.0, MIT
-websocket-driver, 0.8.1, "Apache 2.0"
+websocket-driver, 0.8.2, "Apache 2.0"
 websocket-extensions, 0.1.5, "Apache 2.0"
 xpath, 3.2.0, MIT
 yn, 3.1.1, MIT
@@ -440,7 +361,7 @@ zeitwerk, 2.8.2, MIT
 ```javascript
 yarn licenses v1.22.22
 ├─ (CC-BY-4.0 AND OFL-1.1 AND MIT)
-│  └─ @fortawesome/fontawesome-free@7.2.0
+│  └─ @fortawesome/fontawesome-free@7.3.0
 │     ├─ URL: https://github.com/FortAwesome/Font-Awesome
 │     ├─ VendorName: The Font Awesome Team
 │     └─ VendorUrl: https://fontawesome.com/
@@ -448,7 +369,7 @@ yarn licenses v1.22.22
 │  ├─ detect-libc@2.1.2
 │  │  ├─ URL: git://github.com/lovell/detect-libc.git
 │  │  └─ VendorName: Lovell Fuller
-│  ├─ npm-check-updates@22.2.3
+│  ├─ npm-check-updates@22.2.9
 │  │  ├─ URL: git+https://github.com/raineorshine/npm-check-updates.git
 │  │  ├─ VendorName: Tomas Junnonen
 │  │  └─ VendorUrl: https://github.com/raineorshine/npm-check-updates
@@ -498,7 +419,7 @@ yarn licenses v1.22.22
    │  └─ URL: https://github.com/tsconfig/bases.git
    ├─ @tsconfig/node16@1.0.4
    │  └─ URL: https://github.com/tsconfig/bases.git
-   ├─ @types/node@26.0.0
+   ├─ @types/node@26.0.1
    │  ├─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
    │  └─ VendorUrl: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
    ├─ acorn-walk@8.3.5
@@ -522,7 +443,7 @@ yarn licenses v1.22.22
    │  └─ URL: https://github.com/nuxt-contrib/create-require.git
    ├─ esbuild@0.28.1
    │  └─ URL: git+https://github.com/evanw/esbuild.git
-   ├─ immutable@5.1.6
+   ├─ immutable@5.1.9
    │  ├─ URL: git://github.com/immutable-js/immutable-js.git
    │  ├─ VendorName: Lee Byron
    │  └─ VendorUrl: https://immutable-js.com/
@@ -578,7 +499,7 @@ yarn licenses v1.22.22
       ├─ URL: https://github.com/sindresorhus/yn.git
       ├─ VendorName: Sindre Sorhus
       └─ VendorUrl: sindresorhus.com
-Done in 0.93s.
+Done in 0.30s.
 ```
 
 #### パープルヘイズのルーティング
@@ -654,4 +575,4 @@ rails_conductor_inbound_email_incinerate POST   /rails/conductor/action_mailbox/
                     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                                    active_storage/direct_uploads#create
 ```
 
-_※ 更新履歴: 2026/06/20🔄_
+_※ 更新履歴: 2026/06/30🔄_
