@@ -33,9 +33,6 @@
 
 /node_modules/*
 
-# mysql db backup folder
-/backup
-
 # Ignore, vendor/bundle
 /vendor/bundle
 
