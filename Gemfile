@@ -73,7 +73,7 @@ group :development, :test do
   #   rspec
   gem 'rspec'
   gem 'factory_bot_rails'
-  gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
+  gem 'rspec-rails'
   gem 'spring-commands-rspec'
   gem 'capybara'
 
