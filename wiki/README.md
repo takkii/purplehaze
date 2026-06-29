@@ -43,19 +43,15 @@ _※ 環境構築前提条件を満たすこと、リアルタイム顔認識シ
 
 ```ruby
 # msys2 install
-
 pacman -S mingw-w64-ucrt-x86_64-libyaml
 
 # モデル作成
-
 rails g model BlogComment review:text user_id:integer
 
 # コントローラ作成
-
 rails g controller blog_comments
 
 # ローカルDB、入れ直し
-
 rails db:migrate:reset
 ```
 
@@ -116,12 +112,8 @@ python manage.py migrate
 
 python manage.py runserver localhost:80
 
-# wiki/README.mdを参考に環境構築します。
-
 rails s
 ```
-
-
 
 > hyokaprojectでリアルタイム顔認識を行う → 認証完了ログを書き出す
 >
