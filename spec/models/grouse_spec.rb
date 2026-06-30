@@ -26,7 +26,4 @@ RSpec.describe "String typeof Grouse." do
   it 'eq_socket, should to be an String' do
     expect("#{eq_socket}").to be_an(String)
   end
-
-  # "pg_version" libgroonga version in pgroonga.
-  # uninitialized constant Grouse::ActiveRecord
 end
