@@ -1,0 +1,35 @@
+# frozen_string_literal: true
+
+require 'grouse'
+
+RSpec.describe "String typeof Grouse." do
+  it 'koyomi, should to be a kind of String' do
+    expect("#{koyomi}").to be_a_kind_of(String)
+  end
+
+  it 'gem_version, should to be a kind of String' do
+    expect("#{gem_version}").to be_a_kind_of(String)
+  end
+
+  it 'version, should to be an instance of String' do
+    expect("#{version}").to be_an_instance_of(String)
+  end
+
+  it 'udp_socket, should to be instance of String' do
+    expect("#{udp_socket}").to be_instance_of(String)
+  end
+
+  it 'list_socket, should to be instance of String' do
+    expect("#{list_socket}").to be_instance_of(String)
+  end
+
+  it 'eq_socket, should to be String' do
+    expect("#{eq_socket}").to be_a(String)
+  end
+
+  # # libgroonga version in pgroonga.
+  # it 'pg_version, should to be an String' do
+  #   # uninitialized constant Grouse::ActiveRecord
+  #   expect("{pg_version}").to be_an(String)
+  # end
+end
