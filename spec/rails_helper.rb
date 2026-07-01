@@ -2,10 +2,11 @@
 ENV['RAILS_ENV'] = 'test'
 
 # https://github.com/rspec/rspec-rails/issues/1690
+require File.expand_path("../../config/environment", __FILE__)
 require 'rails/all'
 require 'capybara/rspec'
+require 'factory_bot_rails'
 require 'spec_helper'
-require File.expand_path("../../config/environment", __FILE__)
 
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
@@ -54,11 +55,6 @@ RSpec.configure do |config|
 
   # You can uncomment this line to turn off ActiveRecord support entirely.
   # config.use_active_record = false
-
-  # Suppress unnecessary `should` warnings
-  config.expect_with :rspec do |expectations|
-    expectations.syntax = :expect
-  end
   # RSpec Rails uses metadata to mix in different behaviours to your tests,
   # for example enabling you to call `get` and `post` in request specs. e.g.:
   #
