@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'rails_helper'
+
 describe String do
   it 'should to be kind of String' do
     expect('hello').to be_kind_of(String)
