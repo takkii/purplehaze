@@ -1,4 +1,5 @@
-# ENV['RAILS_ENV'] ||= 'test'
+require 'spec_helper'
+
 ENV['RAILS_ENV'] = 'test'
 
 # https://github.com/rspec/rspec-rails/issues/1690
@@ -6,13 +7,12 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rails/all'
 require 'capybara/rspec'
 require 'factory_bot_rails'
-require 'spec_helper'
 
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 # Uncomment the line below in case you have `--require rails_helper` in the `.rspec` file
 # that will avoid rails generators crashing because migrations haven't been run yet
-# return unless Rails.env.test?
+return unless Rails.env.test?
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
@@ -40,21 +40,8 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 RSpec.configure do |config|
-  # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
-  # config.fixture_paths = [
-  #   Rails.root.join('spec/fixtures')
-  # ]
-
-  # If you're not using ActiveRecord, or you'd prefer not to run each of your
-  # examples within a transaction, remove the following line or assign false
-  # instead of true.
-  # config.use_transactional_fixtures = true
-
-  # FactoryBot / ON
+  # NameError: uninitialized constant FactoryBot
   config.include FactoryBot::Syntax::Methods
-
-  # You can uncomment this line to turn off ActiveRecord support entirely.
-  # config.use_active_record = false
   # RSpec Rails uses metadata to mix in different behaviours to your tests,
   # for example enabling you to call `get` and `post` in request specs. e.g.:
   #
@@ -69,10 +56,4 @@ RSpec.configure do |config|
   # /spec/models would pull in the same behaviour as `type: :model` but this
   # behaviour is considered legacy and will be removed in a future version.
   #
-  # To enable this behaviour uncomment the line below.
-  # config.infer_spec_type_from_file_location!
-  # Filter lines from Rails gems in backtraces.
-  # config.filter_rails_from_backtrace!
-  # arbitrary gems may also be filtered via:
-  # config.filter_gems_from_backtrace("gem name")
 end
