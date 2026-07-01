@@ -66,17 +66,7 @@ gem 'bootsnap', require: false
 # The default gems starting from Ruby 3.5.0.
 gem 'ostruct'
 
-# core tools in purplehaze.
-gem 'grouse'
-
 group :development, :test do
-  #   rspec
-  gem 'rspec'
-  gem 'factory_bot_rails'
-  gem 'rspec-rails'
-  gem 'spring-commands-rspec'
-  gem 'capybara'
-
   #   rubocop
   #   gem 'rubocop', require: false
   #   gem 'rubocop-performance', require: false
@@ -89,15 +79,26 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
-
+  # core tools in purplehaze.
+  gem 'sheltered-girl'
+  gem 'grouse'
   # Don't delete My Gemfile in Library.
   gem 'listen'
   # gem 'license_finder'
+  gem 'logger', '1.6.4'
+  gem 'reline', '0.6.0'
+  gem 'io-console', '0.8.1'
+  gem 'irb', '1.14.3'
+  gem 'rdoc', '6.14.0'
 end
 
 group :test do
   #   Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  # gem 'capybara'
   # gem 'webdrivers'
   # gem 'debug'
+  gem 'rspec'
+  gem 'capybara'
+  gem 'factory_bot_rails'
+  gem 'rspec-rails', '~> 8.0.0'
+  gem 'spring-commands-rspec'
 end
