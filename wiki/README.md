@@ -165,7 +165,7 @@ Dependencies that need approval:
 @tsconfig/node12, 1.0.11, MIT
 @tsconfig/node14, 1.0.3, MIT
 @tsconfig/node16, 1.0.4, MIT
-@types/node, 26.0.1, MIT
+@types/node, 26.1.0, MIT
 acorn, 8.17.0, MIT
 acorn-walk, 8.3.5, MIT
 action_text-trix, 2.1.19, MIT
@@ -243,7 +243,7 @@ kaminari-i18n, 0.5.0, MIT
 listen, 3.10.0, MIT
 logger, 1.7.0, "Simplified BSD, ruby"
 loofah, 2.25.1, MIT
-mail, 2.9.0, MIT
+mail, 2.9.1, MIT
 make-error, 1.3.6, ISC
 marcel, 1.0.4, "Apache 2.0, MIT"
 matrix, 0.4.3, "Simplified BSD, ruby"
@@ -298,7 +298,7 @@ regexp_parser, 2.12.0, MIT
 reline, 0.6.3, ruby
 responders, 3.2.0, MIT
 rinku, 2.0.6, ISC
-rmagick, 7.0.4, MIT
+rmagick, 7.0.5, MIT
 roo, 3.0.0, MIT
 rouge, 5.0.0, "MIT, Simplified BSD"
 rspec, 3.13.2, MIT
@@ -411,7 +411,7 @@ yarn licenses v1.22.22
    │  └─ URL: https://github.com/tsconfig/bases.git
    ├─ @tsconfig/node16@1.0.4
    │  └─ URL: https://github.com/tsconfig/bases.git
-   ├─ @types/node@26.0.1
+   ├─ @types/node@26.1.0
    │  ├─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
    │  └─ VendorUrl: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
    ├─ acorn-walk@8.3.5
@@ -491,7 +491,7 @@ yarn licenses v1.22.22
       ├─ URL: https://github.com/sindresorhus/yn.git
       ├─ VendorName: Sindre Sorhus
       └─ VendorUrl: sindresorhus.com
-Done in 0.30s.
+Done in 0.44s.
 ```
 
 #### パープルヘイズのルーティング
@@ -567,4 +567,4 @@ rails_conductor_inbound_email_incinerate POST   /rails/conductor/action_mailbox/
                     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                                    active_storage/direct_uploads#create
 ```
 
-_※ 更新履歴: 2026/06/30🔄_
+_※ 更新履歴: 2026/07/02🔄_
