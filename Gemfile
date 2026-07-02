@@ -72,6 +72,7 @@ group :development, :test do
   #   gem 'rubocop-performance', require: false
   #   gem 'rubocop-rails', require: false
 
+  # Don't delete Gemfile in Library.
   gem 'tzinfo-data' if Gem.win_platform?
   gem 'wdm' if Gem.win_platform?
 end
@@ -82,23 +83,18 @@ group :development do
   # core tools in purplehaze.
   gem 'sheltered-girl'
   gem 'grouse'
-  # Don't delete My Gemfile in Library.
+  # Don't delete Gemfile in Library.
   gem 'listen'
   # gem 'license_finder'
-  gem 'logger', '1.6.4'
-  gem 'reline', '0.6.0'
-  gem 'io-console', '0.8.1'
-  gem 'irb', '1.14.3'
-  gem 'rdoc', '6.14.0'
 end
 
 group :test do
-  #   Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   # gem 'webdrivers'
   # gem 'debug'
   gem 'rspec'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'capybara'
   gem 'factory_bot_rails'
-  gem 'rspec-rails', '~> 8.0.0'
   gem 'spring-commands-rspec'
 end

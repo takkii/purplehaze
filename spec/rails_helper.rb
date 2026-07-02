@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
+# Limit the execution environment to testing.
 ENV['RAILS_ENV'] = 'test'
 
 # https://github.com/rspec/rspec-rails/issues/1690
@@ -40,8 +43,6 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 RSpec.configure do |config|
-  # NameError: uninitialized constant FactoryBot
-  config.include FactoryBot::Syntax::Methods
   # RSpec Rails uses metadata to mix in different behaviours to your tests,
   # for example enabling you to call `get` and `post` in request specs. e.g.:
   #
@@ -55,5 +56,8 @@ RSpec.configure do |config|
   # You can also infer these behaviours automatically by location, e.g.
   # /spec/models would pull in the same behaviour as `type: :model` but this
   # behaviour is considered legacy and will be removed in a future version.
+  #
+  # NameError: uninitialized constant FactoryBot
+  config.include FactoryBot::Syntax::Methods
   #
 end
