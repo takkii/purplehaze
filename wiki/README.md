@@ -192,6 +192,7 @@ builder, 3.3.0, MIT
 bundler, 4.0.13, MIT
 capybara, 3.40.0, MIT
 carrierwave, 3.1.3, MIT
+childprocess, 4.1.0, MIT
 chokidar, 5.0.0, MIT
 coderay, 1.1.3, MIT
 concurrent-ruby, 1.3.7, MIT
@@ -216,6 +217,7 @@ erubi, 1.13.1, MIT
 esbuild, 0.28.1, MIT
 factory_bot, 6.6.0, MIT
 factory_bot_rails, 6.5.1, MIT
+faker, 3.8.0, MIT
 feedjira, 3.2.6, MIT
 ffi, 1.17.4, "New BSD"
 font-awesome-sass, 6.7.2, MIT
@@ -283,6 +285,7 @@ rack-session, 2.1.2, MIT
 rack-test, 2.2.0, MIT
 rackup, 2.3.1, MIT
 rails, 8.1.3, MIT
+rails-controller-testing, 1.0.5, MIT
 rails-dom-testing, 2.3.0, MIT
 rails-html-sanitizer, 1.7.0, MIT
 rails-i18n, 8.1.0, MIT
@@ -297,6 +300,7 @@ redcarpet, 3.6.1, MIT
 regexp_parser, 2.12.0, MIT
 reline, 0.6.3, ruby
 responders, 3.2.0, MIT
+rexml, 3.4.4, "Simplified BSD"
 rinku, 2.0.6, ISC
 rmagick, 7.0.5, MIT
 roo, 3.0.0, MIT
@@ -314,6 +318,7 @@ sass, 1.101.0, MIT
 sassc, 2.4.0, MIT
 sax-machine, 1.3.2, MIT
 securerandom, 0.4.1, "Simplified BSD, ruby"
+selenium-webdriver, 4.1.0, "Apache 2.0"
 sheltered-girl, 4.0.8.3, MIT
 simplecov, 0.22.0, MIT
 simplecov-html, 0.13.2, MIT
@@ -339,6 +344,7 @@ v8-compile-cache-lib, 3.0.1, MIT
 warden, 1.2.9, MIT
 wdm, 0.2.0, MIT
 web-console, 4.3.0, MIT
+webdrivers, 5.3.1, MIT
 websocket-driver, 0.8.2, "Apache 2.0"
 websocket-extensions, 0.1.5, "Apache 2.0"
 xpath, 3.2.0, MIT
