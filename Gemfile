@@ -90,11 +90,12 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  # gem 'webdrivers'
-  # gem 'debug'
+  gem 'webdrivers'
   gem 'rspec'
   gem 'rspec-rails', '~> 8.0.0'
   gem 'capybara'
   gem 'factory_bot_rails'
   gem 'spring-commands-rspec'
+  gem 'faker'
+  gem 'rails-controller-testing'
 end
