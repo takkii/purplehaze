@@ -10,6 +10,8 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rails/all'
 require 'capybara/rspec'
 require 'factory_bot_rails'
+require 'devise'
+require File.expand_path('./spec/support/controller_macros.rb')
 
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
@@ -57,7 +59,14 @@ RSpec.configure do |config|
   # /spec/models would pull in the same behaviour as `type: :model` but this
   # behaviour is considered legacy and will be removed in a future version.
   #
-  # NameError: uninitialized constant FactoryBot
+  config.before(:all) do
+    FactoryBot.reload
+  end
+  # NameError: uninitialized constant FactoryBot.
   config.include FactoryBot::Syntax::Methods
-  #
+  # Enable the Devise functionality.
+  config.include Devise::Test::IntegrationHelpers, type: :request
+  config.include Devise::Test::ControllerHelpers, type: :controller
+  config.include ControllerMacros, type: :controller
+  config.include Warden::Test::Helpers
 end
