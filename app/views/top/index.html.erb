@@ -1,4 +1,4 @@
-<title>パープルヘイズ🚬</title>
+<title>パープルヘイズ🔥</title>
 <%= favicon_link_tag "haze.ico", skip_pipeline: true %>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <%= csrf_meta_tags %>
@@ -15,10 +15,16 @@
         <%= link_to "記事一覧", blogs_path, class: "btn btn-info" %>
         <%= link_to "期間限定", secret_index_path, class: "btn btn-warning" %>
         <%= link_to "マイページ", users_path, class: "btn btn-dark" %>
-        <%= link_to "広告塔", "http://localhost:3000", class: "btn btn-primary" %>
+        <%= link_to "ひとりのプログラマーの歴史。", "file:///C:/Users/sudok/Game/WeblogSystem/www3/kenkyu/html/index.html", class: "btn btn-primary" %>
+        <%= link_to "オリオンα", "file:///C:/Users/sudok/Game/WeblogSystem/www/orion.html", class: "btn btn-secondary" %>
+        <%= link_to "新世界", "http://localhost:3000", class: "btn btn-light" %>
         <br/>
         </div>
         </div>
+        </div>
+        <br/>
+        <div align="center">
+          <%= image_tag '/images/murasame.jpg', size: '885x120' %>
         </div>
         <br/>
         <div align="center">
@@ -192,16 +198,17 @@
         </div>
         <div align="center" , class="font-review">
           <p> Copyright &copy; 2018 -
-            <%= Time.now.year %> Takayuki, Kamiyama. </p>
+            <%= Time.now.year %> Takayuki Kamiyama </p>
         </div>
         <div align="center" , class="font-review">
           <p>
-            <b> Not Yet Another Software design of Computer
+            <b> Web System Name is 
               <%= @version %> <br/>
               powered by Ruby
               <%= RUBY_VERSION %> / Rails
               <%= Rails.gem_version %> / with
               <%= @pg_version %>
+              <p>BGM by <a href="https://amachamusic.chagasi.com/">甘茶</a>の音楽工房</p>
             </b>
           </p>
         </div>
@@ -223,7 +230,9 @@
         <div align="center">
           <hr/>
           <br/>
-          <h1> 『パープルヘイズ🚬』</h1>
+        <div align="center">
+          <%= image_tag '/images/murasame.jpg', size: '885x120' %>
+        </div>
           <br/>
           <hr/>
         </div>
@@ -346,16 +355,17 @@
         </div>
         <div align="center">
           <p> Copyright &copy; 2018 -
-            <%= Time.now.year %> Takayuki, Kamiyama. </p>
+            <%= Time.now.year %> Takayuki Kamiyama </p>
         </div>
         <div align="center">
           <p>
-            <b> Not Yet Another Software design of Computer
+            <b> Web System Name is 
               <%= @version %> <br/>
               powered by Ruby
               <%= RUBY_VERSION %> / Rails
               <%= Rails.gem_version %> / with
               <%= @pg_version %>
+              <p>BGM by <a href="https://amachamusic.chagasi.com/">甘茶</a>の音楽工房</p>
             </b>
           </p>
         </div>
@@ -486,15 +496,16 @@
         </div>
         <div align="center">
           <p> Copyright &copy; 2018 -
-            <%= Time.now.year %> Takayuki, Kamiyama. </p>
+            <%= Time.now.year %> Takayuki Kamiyama </p>
         </div>
         <div align="center">
-          <p><b> Not Yet Another Software design of Computer
+          <p><b> Web System Name is 
             <%= @version %> <br/>
             powered by Ruby
             <%= RUBY_VERSION %> / Rails
             <%= Rails.gem_version %> / with
             <%= @pg_version %></b></p>
+            <p>BGM by <a href="https://amachamusic.chagasi.com/">甘茶</a>の音楽工房</p>
         </div>
         <br/>
       <% end %>

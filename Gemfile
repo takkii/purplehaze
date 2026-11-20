@@ -65,6 +65,7 @@ gem 'bootsnap', require: false
 
 # The default gems starting from Ruby 3.5.0.
 gem 'ostruct'
+gem 'nkf'
 
 group :development, :test do
   #   rubocop
@@ -82,7 +83,6 @@ group :development do
   gem 'web-console'
   # core tools in purplehaze.
   gem 'sheltered-girl'
-  gem 'grouse'
   # Don't delete Gemfile in Library.
   gem 'listen'
   # gem 'license_finder'

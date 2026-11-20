@@ -134,8 +134,8 @@ EQUAL_PASSWORD = "Doe"
 MEMBERS_CARD = "~/hyokaproject/"
 # カード名: ファイル名
 CARD_NAME = "effect.txt"
-# バージョン情報: ", in core version x.x"
-NYASOCOMSUN_VERSION = ", in core version 3.2"
+# システムバージョン名 xx-xx
+SYSTEM_VERSION = "[無式] 無幻-零番"
 # サーキットブレーカー: 失敗回数
 FAILURE_NUMBER = "3"
 # サーキットブレーカー: 分数を秒計算

@@ -21,7 +21,7 @@ end
 class ApplicationController < ActionController::Base
   after_action :set_csrf_token_header
   before_action :set_locale
-  before_action :validate_ipaddress      # ※1
+  # before_action :validate_ipaddress      # ※1
   before_action :face_recognition_result # ※1
 
   # ※1 If not use, head position is comment add.
