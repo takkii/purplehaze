@@ -3,7 +3,7 @@
 <hr />
 <br />
 <div align="center">
-  <img src="./public/images/haze.gif">
+  <img src="./public/images/team-ragnarok-mrk3.1.gif">
 </div>
 <br />
 <div align="center">

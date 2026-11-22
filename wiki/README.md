@@ -1,4 +1,9 @@
-### 仕様の説明
+<div align="center">
+  <p><h1>purplehaze.</h1></p>
+  <img src="../public/images/haze.gif">
+</div>
+
+### 仕様の説明\
 
 ```markdown
 # 検証済: 開発環境
