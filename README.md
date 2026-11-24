@@ -7,8 +7,9 @@
 </div>
 <br />
 <div align="center">
-  <p><h2>※ How To Use, <a href="https://github.com/takkii/purplehaze/wiki/manual">Here</a></h2></p>
+  <p><h2>※ How To Use, <a href="https://github.com/takkii/purplehaze/wiki/manual">Here</a>.</h2></p>
   <p><h4> © 2026 (oct) MIT License expired, Next Vim License.</h4></p>
 </div>
+
 <br />
 <hr />
