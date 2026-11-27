@@ -6,17 +6,16 @@
     "@rails/ujs": "^7.1.600",
     "bootswatch": "^5.3.8",
     "esbuild": "^0.28.2",
-    "jn-server": "^1.1.0",
-    "jquery": "^4.0.0",
+    "jquery": "^4.1.0",
     "jquery-ujs": "^1.2.3",
     "pygments-rouge-css": "^0.1.0",
-    "sass": "^1.106.1"
+    "sass": "^1.108.2"
   },
   "scripts": {
     "build": "esbuild app/assets/javascript/application.js --bundle --sourcemap --outdir=app/assets/builds",
     "build:css": "sass ./app/assets/stylesheets/application.sass.scss ./app/assets/builds/application.css --load-path=node_modules --silence-deprecation=import --quiet-deps"
   },
   "devDependencies": {
-    "@types/node": "^26.6.5"
+    "@types/node": "^26.6.11"
   }
 }
